@@ -1,0 +1,1486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Aplango</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        role="status"
+        style="width: 3rem; height: 3rem"
+      ></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <div
+      class="container-fluid fixed-top px-0 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <!-- <div class="top-bar row gx-0 align-items-center d-none d-lg-flex"></div> -->
+
+      <nav
+        class="navbar navbar-expand-lg navbar-light py-lg-2 px-lg-5 wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0 p-4 pt-lg-0 pb-0">
+          <img src="./img/logo.png" alt="" srcset="" class="img-fluid" />
+        </a>
+
+        <button
+          type="button"
+          class="navbar-toggler me-4"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav mx-auto p-4 pt-lg-4 pb-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="about.html" class="nav-item nav-link">About Us</a>
+            <a href="services.html" class="nav-item nav-link">Services</a>
+            <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+            <a href="offers.html" class="nav-item nav-link active">Offers</a>
+
+            <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+
+            <div class="d-block d-lg-none ms-2 p-4 pt-lg-4 pb-0">
+              <a
+                href="login.html"
+                type="button"
+                class="btn btn-outline-danger rounded-pill"
+                >Login</a
+              >
+              <a
+                href="register.html"
+                type="button"
+                class="btn btn-outline-danger rounded-pill mx-3"
+              >
+                SignUp
+              </a>
+            </div>
+          </div>
+          <div class="d-none d-lg-flex ms-2 p-4 pt-lg-4 pb-0">
+            <div class="dropdown">
+              <a
+                class="btn btn-light dropdown-toggle d-flex px-3"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <div
+                  class="d-flex justify-content-center align-items-center px-2"
+                >
+                  <img
+                    height="40px"
+                    width="40px"
+                    class="img-fluid"
+                    src="https://d1nrhamtcpp354.cloudfront.net/modules/web/assets/images/default_user.png"
+                    alt="profile pic"
+                  />
+                  <h5 class="mx-3 my-2">Profile</h5>
+                </div>
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="overview.html">Account</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="register.html">Signup</a>
+                </li>
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+
+                <li>
+                  <a class="dropdown-item" href="help.html">Help & Support</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid" style="margin-top: 10rem">
+      <div class="row">
+        <div class="col-md-12 bg-light border-bottom pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h2>Offers</h2>
+
+                <ol class="breadcrumb p-0 m-0 bg-transparent">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item active">Offers</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Popular Offers start -->
+    <div class="container-xxl popular-section py-5">
+      <div class="container">
+        <div
+          class="text-center mx-auto wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="max-width: 600px"
+        >
+          <p class="d-inline-block rounded text-danger fw-bold py-1 px-3">
+            Popular Offers
+          </p>
+          <h4 class="mb-5">
+            Welcome to Aplango- India's Trusted Coupons, Offers &Cashback
+            Website
+          </h4>
+        </div>
+        <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <div class="nav nav-tabs">
+              <button
+                class="nav-link active"
+                data-bs-toggle="pill"
+                data-bs-target="#tab-pane-1"
+                type="button"
+              >
+                <h5 class="m-0">Today’s Best Offers</h5>
+              </button>
+              <button
+                class="nav-link"
+                data-bs-toggle="pill"
+                data-bs-target="#tab-pane-2"
+                type="button"
+              >
+                <h5 class="m-0">UpSouth</h5>
+              </button>
+              <button
+                class="nav-link"
+                data-bs-toggle="pill"
+                data-bs-target="#tab-pane-3"
+                type="button"
+              >
+                <h5 class="m-0">RBocean</h5>
+              </button>
+              <button
+                class="nav-link"
+                data-bs-toggle="pill"
+                data-bs-target="#tab-pane-4"
+                type="button"
+              >
+                <h5 class="m-0">KFC</h5>
+              </button>
+              <button
+                class="nav-link"
+                data-bs-toggle="pill"
+                data-bs-target="#tab-pane-5"
+                type="button"
+              >
+                <h5 class="m-0">Domino's</h5>
+              </button>
+              <button
+                class="nav-link"
+                data-bs-toggle="pill"
+                data-bs-target="#tab-pane-6"
+                type="button"
+              >
+                <h5 class="m-0">Keys Hotels</h5>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="tab-content w-100">
+              <div class="tab-pane active" id="tab-pane-1">
+                <div class="container-xxl py-5">
+                  <div class="container">
+                    <div
+                      class="owl-carousel Popular-carousel"
+                      data-wow-delay="0.3s"
+                    >
+                      <div class="coupon_upsouth">
+                        <div class="upsouth_left">
+                          <div>Enjoy Your Day</div>
+                        </div>
+                        <div class="upsouth_center">
+                          <div>
+                            <div class="d-flex justify-content-center">
+                              <img
+                                src="img/upsouth.png"
+                                alt=""
+                                srcset=""
+                                style="width: 50px; height: 50px"
+                                class="mb-2"
+                              />
+                            </div>
+
+                            <h3 class="text-truncate">₹ 50 OFF</h3>
+                            <h6>On Your Total Bill of ₹ 300</h6>
+                            <small>Offer Valid 30th June, 2023</small>
+                          </div>
+                        </div>
+
+                        <div class="upsouth_right">
+                          <div>
+                            <a
+                              href="#"
+                              class="btn btn-danger"
+                              type="button"
+                              class="btn btn-danger mt-2"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal"
+                            >
+                              <span class="get-code">Buy Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="coupon_rbocean">
+                        <div class="ocean_left">
+                          <div>Enjoy Your Day</div>
+                        </div>
+                        <div class="ocean_center">
+                          <div>
+                            <div class="d-flex justify-content-center">
+                              <img
+                                src="img/ocean.png"
+                                alt=""
+                                srcset=""
+                                style="width: 50px; height: 50px"
+                                class="mb-2"
+                              />
+                            </div>
+
+                            <h3 class="text-truncate">Buy 1 Get 1</h3>
+                            <h6>Waterpark</h6>
+                            <small>Offer Valid 30th June, 2023</small>
+                          </div>
+                        </div>
+
+                        <div class="ocean_right">
+                          <div>
+                            <a
+                              href="#"
+                              class="btn btn-danger"
+                              type="button"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal_ocean"
+                            >
+                              <span class="get-code">Buy Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="coupon_kfc">
+                        <div class="kfc_left">
+                          <div>Enjoy Your Day</div>
+                        </div>
+                        <div class="kfc_center">
+                          <div>
+                            <div class="d-flex justify-content-center">
+                              <img
+                                src="img/kfc-logo.png"
+                                alt=""
+                                srcset=""
+                                style="width: 50px; height: 50px"
+                                class="mb-2"
+                              />
+                            </div>
+
+                            <h3 class="text-truncate">Buy 5pc</h3>
+                            <h6>hotwings get Krushilime</h6>
+                            <small>Offer Valid 30th June, 2023</small>
+                          </div>
+                        </div>
+
+                        <div class="kfc_right">
+                          <div>
+                            <a
+                              href="#"
+                              class="btn btn-danger"
+                              type="button"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal_kfc"
+                            >
+                              <span class="get-code">Buy Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="coupon_dominos">
+                        <div class="domi_left">
+                          <div>Enjoy Your Day</div>
+                        </div>
+                        <div class="domi_center">
+                          <div>
+                            <div class="d-flex justify-content-center">
+                              <img
+                                src="img/tranding/2.png"
+                                alt=""
+                                srcset=""
+                                style="width: 50px; height: 50px"
+                                class="mb-2"
+                              />
+                            </div>
+
+                            <h3 class="text-truncate">Buy 5pc</h3>
+                            <h6>hotwings get Krushilime</h6>
+                            <small>Offer Valid 30th June, 2023</small>
+                          </div>
+                        </div>
+
+                        <div class="domi_right">
+                          <div>
+                            <a
+                              href="#"
+                              class="btn btn-danger"
+                              type="button"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal_dominos"
+                            >
+                              <span class="get-code">Buy Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="coupon_keys">
+                        <div class="keys_left">
+                          <div>Enjoy Your Day</div>
+                        </div>
+                        <div class="keys_center">
+                          <div>
+                            <div class="d-flex justify-content-center">
+                              <img
+                                src="img/keys.png"
+                                alt=""
+                                srcset=""
+                                style="width: 50px; height: 50px"
+                                class="mb-2"
+                              />
+                            </div>
+
+                            <h3 class="text-truncate">20 % Off</h3>
+                            <h6>on Buffet</h6>
+                            <small>Offer Valid 30th June, 2023</small>
+                          </div>
+                        </div>
+
+                        <div class="keys_right">
+                          <div>
+                            <a
+                              href="#"
+                              class="btn btn-danger"
+                              type="button"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal_keys"
+                            >
+                              <span class="get-code">Buy Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-pane-2">
+                <div class="container-xxl py-5">
+                  <div class="container">
+                    <div
+                      class="owl-carousel Popular-carousel"
+                      data-wow-delay="0.3s"
+                    >
+                      <div class="coupon_upsouth">
+                        <div class="upsouth_left">
+                          <div>Enjoy Your Day</div>
+                        </div>
+                        <div class="upsouth_center">
+                          <div>
+                            <div class="d-flex justify-content-center">
+                              <img
+                                src="img/upsouth.png"
+                                alt=""
+                                srcset=""
+                                style="width: 50px; height: 50px"
+                                class="mb-2"
+                              />
+                            </div>
+
+                            <h3 class="text-truncate">₹ 50 OFF</h3>
+                            <h6>On Your Total Bill of ₹ 300</h6>
+                            <small>Offer Valid 30th June, 2023</small>
+                          </div>
+                        </div>
+
+                        <div class="upsouth_right">
+                          <div>
+                            <a
+                              href="#"
+                              class="btn btn-danger"
+                              type="button"
+                              class="btn btn-danger mt-2"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal"
+                            >
+                              <span class="get-code">Buy Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="coupon_upsouth">
+                        <div class="upsouth_left">
+                          <div>Enjoy Your Day</div>
+                        </div>
+                        <div class="upsouth_center">
+                          <div>
+                            <div class="d-flex justify-content-center">
+                              <img
+                                src="img/upsouth.png"
+                                alt=""
+                                srcset=""
+                                style="width: 50px; height: 50px"
+                                class="mb-2"
+                              />
+                            </div>
+
+                            <h3 class="text-truncate">Combo offer</h3>
+                            <h6>buy 1 get combo</h6>
+                            <small>Offer Valid 30th June, 2023</small>
+                          </div>
+                        </div>
+
+                        <div class="upsouth_right">
+                          <div>
+                            <a
+                              href="#"
+                              class="btn btn-danger"
+                              type="button"
+                              class="btn btn-danger mt-2"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal"
+                            >
+                              <span class="get-code">Buy Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="coupon_upsouth">
+                        <div class="upsouth_left">
+                          <div>Enjoy Your Day</div>
+                        </div>
+                        <div class="upsouth_center">
+                          <div>
+                            <div class="d-flex justify-content-center">
+                              <img
+                                src="img/upsouth.png"
+                                alt=""
+                                srcset=""
+                                style="width: 50px; height: 50px"
+                                class="mb-2"
+                              />
+                            </div>
+
+                            <h3>₹ 50 OFF</h3>
+                            <h6>On Your Total Bill of ₹ 300</h6>
+                            <small>Offer Valid 30th June, 2023</small>
+                          </div>
+                        </div>
+
+                        <div class="upsouth_right">
+                          <div>
+                            <a
+                              href="#"
+                              class="btn btn-danger"
+                              type="button"
+                              class="btn btn-danger mt-2"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal"
+                            >
+                              <span class="get-code">Buy Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="coupon_upsouth">
+                        <div class="upsouth_left">
+                          <div>Enjoy Your Day</div>
+                        </div>
+                        <div class="upsouth_center">
+                          <div>
+                            <div class="d-flex justify-content-center">
+                              <img
+                                src="img/upsouth.png"
+                                alt=""
+                                srcset=""
+                                style="width: 50px; height: 50px"
+                                class="mb-2"
+                              />
+                            </div>
+
+                            <h3>Combo offer</h3>
+                            <h6>buy 1 get combo</h6>
+                            <small>Offer Valid 30th June, 2023</small>
+                          </div>
+                        </div>
+
+                        <div class="upsouth_right">
+                          <div>
+                            <a
+                              href="#"
+                              class="btn btn-danger"
+                              type="button"
+                              class="btn btn-danger mt-2"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal"
+                            >
+                              <span class="get-code">Buy Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-pane-3">
+                <div class="container-xxl py-5">
+                  <div class="container">
+                    <div
+                      class="owl-carousel Popular-carousel"
+                      data-wow-delay="0.3s"
+                    >
+                      <div class="coupon_rbocean">
+                        <div class="ocean_left">
+                          <div>Enjoy Your Day</div>
+                        </div>
+                        <div class="ocean_center">
+                          <div>
+                            <div class="d-flex justify-content-center">
+                              <img
+                                src="img/ocean.png"
+                                alt=""
+                                srcset=""
+                                style="width: 50px; height: 50px"
+                                class="mb-2"
+                              />
+                            </div>
+
+                            <h3>Buy 1 Get 1</h3>
+                            <h6>Waterpark</h6>
+                            <small>Offer Valid 30th June, 2023</small>
+                          </div>
+                        </div>
+
+                        <div class="ocean_right">
+                          <div>
+                            <a
+                              href="#"
+                              class="btn btn-danger"
+                              type="button"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal_ocean"
+                            >
+                              <span class="get-code">Buy Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="coupon_rbocean">
+                        <div class="ocean_left">
+                          <div>Enjoy Your Day</div>
+                        </div>
+                        <div class="ocean_center">
+                          <div>
+                            <div class="d-flex justify-content-center">
+                              <img
+                                src="img/ocean.png"
+                                alt=""
+                                srcset=""
+                                style="width: 50px; height: 50px"
+                                class="mb-2"
+                              />
+                            </div>
+
+                            <h3>Buy 1 Get 1</h3>
+                            <h6>Buffet</h6>
+                            <small>Offer Valid 30th June, 2023</small>
+                          </div>
+                        </div>
+
+                        <div class="ocean_right">
+                          <div>
+                            <a
+                              href="#"
+                              class="btn btn-danger"
+                              type="button"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal_ocean"
+                            >
+                              <span class="get-code">Buy Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="coupon_rbocean">
+                        <div class="ocean_left">
+                          <div>Enjoy Your Day</div>
+                        </div>
+                        <div class="ocean_center">
+                          <div>
+                            <div class="d-flex justify-content-center">
+                              <img
+                                src="img/ocean.png"
+                                alt=""
+                                srcset=""
+                                style="width: 50px; height: 50px"
+                                class="mb-2"
+                              />
+                            </div>
+
+                            <h3>Buy 1 Get 1</h3>
+                            <h6>Waterpark</h6>
+                            <small>Offer Valid 30th June, 2023</small>
+                          </div>
+                        </div>
+
+                        <div class="ocean_right">
+                          <div>
+                            <a
+                              href="#"
+                              class="btn btn-danger"
+                              type="button"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal_ocean"
+                            >
+                              <span class="get-code">Buy Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-pane-4">
+                <div class="container-xxl py-5">
+                  <div class="container">
+                    <div
+                      class="owl-carousel Popular-carousel"
+                      data-wow-delay="0.3s"
+                    >
+                      <div class="coupon_kfc">
+                        <div class="kfc_left">
+                          <div>Enjoy Your Day</div>
+                        </div>
+                        <div class="kfc_center">
+                          <div>
+                            <div class="d-flex justify-content-center">
+                              <img
+                                src="img/kfc-logo.png"
+                                alt=""
+                                srcset=""
+                                style="width: 50px; height: 50px"
+                                class="mb-2"
+                              />
+                            </div>
+
+                            <h3>Buy 5pc</h3>
+                            <h6>hotwings get Krushilime</h6>
+                            <small>Offer Valid 30th June, 2023</small>
+                          </div>
+                        </div>
+
+                        <div class="kfc_right">
+                          <div>
+                            <a
+                              href="#"
+                              class="btn btn-danger"
+                              type="button"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal_kfc"
+                            >
+                              <span class="get-code">Buy Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane" id="tab-pane-5">
+                <div class="container-xxl py-5">
+                  <div class="container">
+                    <div
+                      class="owl-carousel Popular-carousel"
+                      data-wow-delay="0.3s"
+                    >
+                      <div class="coupon_dominos">
+                        <div class="domi_left">
+                          <div>Enjoy Your Day</div>
+                        </div>
+                        <div class="domi_center">
+                          <div>
+                            <div class="d-flex justify-content-center">
+                              <img
+                                src="img/tranding/2.png"
+                                alt=""
+                                srcset=""
+                                style="width: 50px; height: 50px"
+                                class="mb-2"
+                              />
+                            </div>
+
+                            <h3>20 % Off</h3>
+                            <h6>on bill of Rs.349/ and above</h6>
+                            <small>Offer Valid 30th June, 2023</small>
+                          </div>
+                        </div>
+
+                        <div class="domi_right">
+                          <div>
+                            <a
+                              href="#"
+                              class="btn btn-danger"
+                              type="button"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal_dominos"
+                            >
+                              <span class="get-code">Buy Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="coupon_dominos">
+                        <div class="domi_left">
+                          <div>Enjoy Your Day</div>
+                        </div>
+                        <div class="domi_center">
+                          <div>
+                            <div class="d-flex justify-content-center">
+                              <img
+                                src="img/tranding/2.png"
+                                alt=""
+                                srcset=""
+                                style="width: 50px; height: 50px"
+                                class="mb-2"
+                              />
+                            </div>
+
+                            <h3>save Rs.101</h3>
+                            <h6>on bill of Rs.399/-</h6>
+                            <small>Offer Valid 30th June, 2023</small>
+                          </div>
+                        </div>
+
+                        <div class="domi_right">
+                          <div>
+                            <a
+                              href="#"
+                              class="btn btn-danger"
+                              type="button"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal_dominos"
+                            >
+                              <span class="get-code">Buy Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="coupon_dominos">
+                        <div class="domi_left">
+                          <div>Enjoy Your Day</div>
+                        </div>
+                        <div class="domi_center">
+                          <div>
+                            <div class="d-flex justify-content-center">
+                              <img
+                                src="img/tranding/2.png"
+                                alt=""
+                                srcset=""
+                                style="width: 50px; height: 50px"
+                                class="mb-2"
+                              />
+                            </div>
+
+                            <h3>Cake free</h3>
+                            <h6>on purchase of medium / large pizza</h6>
+                            <small>Offer Valid 30th June, 2023</small>
+                          </div>
+                        </div>
+
+                        <div class="domi_right">
+                          <div>
+                            <a
+                              href="#"
+                              class="btn btn-danger"
+                              type="button"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal_dominos"
+                            >
+                              <span class="get-code">Buy Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane" id="tab-pane-6">
+                <div class="container-xxl py-5">
+                  <div class="container">
+                    <div
+                      class="owl-carousel Popular-carousel"
+                      data-wow-delay="0.3s"
+                    >
+                      <div class="coupon_keys">
+                        <div class="keys_left">
+                          <div>Enjoy Your Day</div>
+                        </div>
+                        <div class="keys_center">
+                          <div>
+                            <div class="d-flex justify-content-center">
+                              <img
+                                src="img/keys.png"
+                                alt=""
+                                srcset=""
+                                style="width: 50px; height: 50px"
+                                class="mb-2"
+                              />
+                            </div>
+
+                            <h3>20 % Off</h3>
+                            <h6>on Buffet</h6>
+                            <small>Offer Valid 30th June, 2023</small>
+                          </div>
+                        </div>
+
+                        <div class="keys_right">
+                          <div>
+                            <a
+                              href="#"
+                              class="btn btn-danger"
+                              type="button"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal_keys"
+                            >
+                              <span class="get-code">Buy Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="coupon_keys">
+                        <div class="keys_left">
+                          <div>Enjoy Your Day</div>
+                        </div>
+                        <div class="keys_center">
+                          <div>
+                            <div class="d-flex justify-content-center">
+                              <img
+                                src="img/keys.png"
+                                alt=""
+                                srcset=""
+                                style="width: 50px; height: 50px"
+                                class="mb-2"
+                              />
+                            </div>
+
+                            <h3>30 % Off</h3>
+                            <h6>on Buffet</h6>
+                            <small>Offer Valid 30th June, 2023</small>
+                          </div>
+                        </div>
+
+                        <div class="keys_right">
+                          <div>
+                            <a
+                              href="#"
+                              class="btn btn-danger"
+                              type="button"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal_keys"
+                            >
+                              <span class="get-code">Buy Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="coupon_keys">
+                        <div class="keys_left">
+                          <div>Enjoy Your Day</div>
+                        </div>
+                        <div class="keys_center">
+                          <div>
+                            <div class="d-flex justify-content-center">
+                              <img
+                                src="img/keys.png"
+                                alt=""
+                                srcset=""
+                                style="width: 50px; height: 50px"
+                                class="mb-2"
+                              />
+                            </div>
+
+                            <h3>Buy 1 get 1</h3>
+                            <h6>on Buffet</h6>
+                            <small>Offer Valid 30th June, 2023</small>
+                          </div>
+                        </div>
+
+                        <div class="keys_right">
+                          <div>
+                            <a
+                              href="#"
+                              class="btn btn-danger"
+                              type="button"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal_keys"
+                            >
+                              <span class="get-code">Buy Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="coupon_keys">
+                        <div class="keys_left">
+                          <div>Enjoy Your Day</div>
+                        </div>
+                        <div class="keys_center">
+                          <div>
+                            <div class="d-flex justify-content-center">
+                              <img
+                                src="img/keys.png"
+                                alt=""
+                                srcset=""
+                                style="width: 50px; height: 50px"
+                                class="mb-2"
+                              />
+                            </div>
+
+                            <h3>50 % Off</h3>
+                            <h6>on Buffet</h6>
+                            <small>Offer Valid 30th June, 2023</small>
+                          </div>
+                        </div>
+
+                        <div class="keys_right">
+                          <div>
+                            <a
+                              href="#"
+                              class="btn btn-danger"
+                              type="button"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal_keys"
+                            >
+                              <span class="get-code">Buy Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Popular Offers  End -->
+
+    <div class="container mt-5 mb-3">
+      <img src="./img/Frame 292.png" alt="" srcset="" class="img-fluid" />
+    </div>
+
+    <!-- footer start -->
+    <div
+      class="container-fluid footer mt-5 py-5 wow fadeIn"
+      data-wow-delay="0.1s"
+      style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-5 col-md-6">
+            <p class="text-dark">Sign up for offers and more</p>
+            <div class="position-relative w-100 mb-3 border rounded-2">
+              <input
+                class="form-control bg-white border-0 w-100 py-3 ps-4 pe-5"
+                type="text"
+                placeholder="Enter your email "
+              />
+              <button
+                type="button"
+                class="btn btn-dark py-2 position-absolute top-0 end-0 mt-2 me-2"
+              >
+                SignUp
+              </button>
+            </div>
+
+            <div class="d-flex pt-2">
+              <a
+                class="btn btn-square btn-outline-dark rounded-circle me-2"
+                href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="btn btn-square btn-outline-dark rounded-circle me-2"
+                href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="btn btn-square btn-outline-dark rounded-circle me-2"
+                href=""
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a
+                class="btn btn-square btn-outline-dark rounded-circle me-2"
+                href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h4 class="text-dark mb-4">Quick Links</h4>
+            <a class="btn btn-link" href="index.html">Home </a>
+            <a class="btn btn-link" href="about.html">About Us</a>
+            <a class="btn btn-link" href="gallery.html">Gallery</a>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h4 class="text-dark mb-4">Quick Links</h4>
+            <a class="btn btn-link" href="services.html">Services </a>
+            <a class="btn btn-link" href="contact.html">Contact Us</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-dark mb-4">Legal</h4>
+
+            <a class="btn btn-link" href="privacy.html">Privacy Policies</a>
+            <a class="btn btn-link" href="terms.html">Terms &amp; Conditions</a>
+            <a class="btn btn-link" href="faq.html">FAQ's </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer end -->
+
+    <!--upsouth Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-light">
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-4">
+                <img
+                  src="./img/upsouth.png"
+                  alt=""
+                  srcset=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-8">
+                <h5 class="modal-title" id="exampleModalLabel">upsouth</h5>
+                <p>upsouth: Upto 60% Off on Food Orders (Select Restaurants)</p>
+              </div>
+            </div>
+
+            <button
+              type="button"
+              class="btn-close bg-white text-black-50 rounded-circle"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center">
+            <h2 class="mb-3">Login:</h2>
+            <div class="input-group mb-3">
+              <input
+                type="text "
+                class="form-control text-center text-danger"
+                placeholder="Card No 16 Digit"
+                aria-label="Card No 16 Digit"
+                value="6045 6212 1532 1589"
+                aria-describedby="button-addon2"
+                style="border: 1px dashed"
+              />
+            </div>
+            <div class="input-group mb-3">
+              <input
+                type="password"
+                class="form-control text-center text-danger"
+                placeholder="Password 4 Digit"
+                aria-label="Password 4 Digit"
+                value="1589"
+                style="border: 1px dashed"
+              />
+            </div>
+            <div>
+              <a href="javascript:void(0)" class="btn btn-danger upsouth_btn"
+                >Login</a
+              >
+            </div>
+          </div>
+          <div class="text-center py-4">
+            <a href="https://www.zomato.com/">Visit upsouth. </a
+            ><span>and paste your code at checkout</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--ocean  Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal_ocean"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-light">
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-4">
+                <img
+                  src="./img/rbocean.png"
+                  alt=""
+                  srcset=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-8">
+                <h5 class="modal-title" id="exampleModalLabel">RBocean</h5>
+                <p>RBocean: Upto Buy One Get One Offer</p>
+              </div>
+            </div>
+
+            <button
+              type="button"
+              class="btn-close bg-white text-black-50 rounded-circle"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center">
+            <h2 class="mb-3">Login:</h2>
+            <div class="input-group mb-3">
+              <input
+                type="text "
+                class="form-control text-center text-danger"
+                placeholder="Card No 16 Digit"
+                aria-label="Card No 16 Digit"
+                value="6045 6212 1532 1589"
+                aria-describedby="button-addon2"
+                style="border: 1px dashed"
+              />
+            </div>
+            <div class="input-group mb-3">
+              <input
+                type="password"
+                class="form-control text-center text-danger"
+                placeholder="Password 4 Digit"
+                aria-label="Password 4 Digit"
+                value="1589"
+                aria-describedby="button-addon2"
+                style="border: 1px dashed"
+              />
+            </div>
+            <div>
+              <a href="javascript:void(0)" class="btn btn-danger upsouth_btn"
+                >Login</a
+              >
+            </div>
+          </div>
+          <div class="text-center py-4">
+            <a href="https://www.zomato.com/">Visit upsouth. </a
+            ><span>and paste your code at checkout</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--kfc  Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal_kfc"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-light">
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-4">
+                <img
+                  src="./img/kfc-logo.png"
+                  alt=""
+                  srcset=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-8">
+                <h5 class="modal-title" id="exampleModalLabel">KFC</h5>
+                <p>KFC: Pune Now delivers great Taste on...</p>
+              </div>
+            </div>
+
+            <button
+              type="button"
+              class="btn-close bg-white text-black-50 rounded-circle"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center">
+            <h2 class="mb-3">Login:</h2>
+            <div class="input-group mb-3">
+              <input
+                type="text "
+                class="form-control text-center text-danger"
+                placeholder="Card No 16 Digit"
+                aria-label="Card No 16 Digit"
+                value="6045 6212 1532 1589"
+                aria-describedby="button-addon2"
+                style="border: 1px dashed"
+              />
+            </div>
+            <div class="input-group mb-3">
+              <input
+                type="password"
+                class="form-control text-center text-danger"
+                placeholder="Password 4 Digit"
+                aria-label="Password 4 Digit"
+                value="1589"
+                aria-describedby="button-addon2"
+                style="border: 1px dashed"
+              />
+            </div>
+            <div>
+              <a href="javascript:void(0)" class="btn btn-danger upsouth_btn"
+                >Login</a
+              >
+            </div>
+          </div>
+          <div class="text-center py-4">
+            <a href="https://www.zomato.com/">Visit KFC. </a
+            ><span>www.Kfc.co.in</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--dominos  Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal_dominos"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-light">
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-4">
+                <img
+                  src="./img/tranding/2.png"
+                  alt=""
+                  srcset=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-8">
+                <h5 class="modal-title" id="exampleModalLabel">Domino's</h5>
+                <p>Domino's: Domino's Pizza ye hai rishton ka time</p>
+              </div>
+            </div>
+
+            <button
+              type="button"
+              class="btn-close bg-white text-black-50 rounded-circle"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center">
+            <h2 class="mb-3">Login:</h2>
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control text-center text-danger"
+                placeholder="Card No 16 Digit"
+                aria-label="Card No 16 Digit"
+                value="6045 6212 1532 1589"
+                aria-describedby="button-addon2"
+                style="border: 1px dashed"
+              />
+            </div>
+            <div class="input-group mb-3">
+              <input
+                type="password"
+                class="form-control text-center text-danger"
+                placeholder="Password 4 Digit"
+                aria-label="Password 4 Digit"
+                value="1589"
+                aria-describedby="button-addon2"
+                style="border: 1px dashed"
+              />
+            </div>
+            <div>
+              <a href="javascript:void(0)" class="btn btn-danger upsouth_btn"
+                >Login</a
+              >
+            </div>
+          </div>
+          <div class="text-center py-4">
+            <a href="https://www.zomato.com/">Visit KFC. </a
+            ><span>www.dominos.co.in</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--dominos  Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal_keys"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-light">
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-4">
+                <img src="./img/keys.png" alt="" srcset="" class="img-fluid" />
+              </div>
+              <div class="col-8">
+                <h5 class="modal-title" id="exampleModalLabel">KEYS</h5>
+                <p>IT'S TIME FOR HAFTA VASOOL !</p>
+              </div>
+            </div>
+
+            <button
+              type="button"
+              class="btn-close bg-white text-black-50 rounded-circle"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center">
+            <h2 class="mb-3">Login:</h2>
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control text-center text-danger"
+                placeholder="Card No 16 Digit"
+                aria-label="Card No 16 Digit"
+                value="6045 6212 1532 1589"
+                aria-describedby="button-addon2"
+                style="border: 1px dashed"
+              />
+            </div>
+            <div class="input-group mb-3">
+              <input
+                type="password"
+                class="form-control text-center text-danger"
+                placeholder="Password 4 Digit"
+                aria-label="Password 4 Digit"
+                value="1589"
+                aria-describedby="button-addon2"
+                style="border: 1px dashed"
+              />
+            </div>
+            <div>
+              <a href="javascript:void(0)" class="btn btn-danger upsouth_btn"
+                >Login</a
+              >
+            </div>
+          </div>
+          <div class="text-center py-4">
+            <a href="https://www.zomato.com/">Visit KEY HOTELS. </a
+            ><span>www.keyshotels.co.in</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a
+      href="#"
+      class="btn btn-lg btn-danger btn-lg-square rounded-circle back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap-notify.min.js"></script>
+  </body>
+</html>
